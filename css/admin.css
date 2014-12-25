@@ -67,7 +67,63 @@ h2
   color         : #555;
 }
 
-/*検索条件*/
+/*------------------------------------------------------------------------------
+  ログイン
+------------------------------------------------------------------------------*/
+.login_box
+{
+  display          : -webkit-box;
+  -webkit-box-pack : center;
+  -webkit-box-align: center;
+}
+.login_inner
+{
+   border : solid 1px #ccc;
+   width  : 400px;
+}
+.login_inner header
+{
+  background : #223e5e;
+  color      : #fff;
+  padding    : 10px;
+}
+
+
+.login_inner div > label
+{
+  width   : 100px;
+  display : block;
+}
+.login_inner .body
+{
+  padding: 10px;
+
+}
+.login_inner .body > div
+{
+  display : -webkit-box;
+  margin  : 10px;
+}
+.btn_login
+{
+   background-color:#398DAD;
+   color           :#fff;
+   width           :100px;
+   height          :20px;
+   padding         :10px;
+   text-align      :center;
+   letter-spacing  :5px;
+}
+
+.login_btn_box
+{
+  -webkit-box-pack: center;
+}
+
+
+/*------------------------------------------------------------------------------
+  検索条件
+------------------------------------------------------------------------------*/
 .condition_box
 {
   margin: 20px;
@@ -122,7 +178,9 @@ h2
    letter-spacing  :10px;
 }
 
-/*検索結果*/
+/*------------------------------------------------------------------------------
+  検索結果
+------------------------------------------------------------------------------*/
 .serach_result_box
 {
   margin : 20px;
@@ -146,7 +204,9 @@ h2
   padding       : 10px;
 }
 
-/*詳細画面*/
+/*------------------------------------------------------------------------------
+  詳細画面
+------------------------------------------------------------------------------*/
 .detail
 {
   margin : 20px;

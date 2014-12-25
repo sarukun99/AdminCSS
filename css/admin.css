@@ -1,0 +1,219 @@
+/*リセット*/
+*
+{
+  padding: 0px;
+  margin : 0px;
+}
+
+/* 入力部品*/
+input
+{
+  border            : solid 1px #ccc;
+  color             : #555;
+  border-radius     : 5px;
+  font-size         : 15px;
+  padding           : 10px;
+}
+
+input[type=radio],
+input[type=checkbox]
+{
+  -webkit-appearance : none;
+    margin           : 10px 10px 10px 15px;
+    width            : 40px;
+    height           : 40px;
+    vertical-align   : middle;
+    background       : #fff;
+}
+input[type=radio]:checked,
+input[type=checkbox]:checked
+{
+   background: #ccc;
+}
+select{
+    color             : #555;
+    height            : 45px;
+    font-size         : 100%;
+    padding           : 12px 50px 12px 12px;
+    border            : 1px solid #B3B3B3;
+    border-radius     : 4px;
+    -webkit-appearance: none;
+    -moz-appearance   : none;
+    appearance        : none;
+    text-indent       : .01px;
+    text-overflow     : "";
+    background        : #FFF url(image/select_arrow.jpg) no-repeat right;
+}
+option
+{
+   font-size: 30px;
+   box-sizing: border-box;
+}
+
+/* ボックスレイアウト*/
+.box
+{
+  display:-webkit-box;
+}
+
+/*ページタイトル*/
+h2
+{
+  border-left   : solid 20px #398DAD;
+  padding-left  : 15px;
+  margin-top    : 15px;
+  margin-left   : 20px;
+  margin-bottom : 15px;
+  color         : #555;
+}
+
+/*検索条件*/
+.condition_box
+{
+  margin: 20px;
+  border: solid 1px #ccc;
+}
+.condition_box > header
+{
+  background     : #223e5e;
+  color          : #fff;
+  padding        : 10px 10px 10px 30px;
+  letter-spacing : 2px;
+}
+.condition_box .body
+{
+   display: -webkit-box;
+   padding: 10px;
+}
+.condition_box .body> ul
+{
+   list-style-type:none;
+}
+.condition_box .body li
+{
+   margin           : 20px 10px 20px 10px;
+   color            : #555;
+   display          : -webkit-box;
+   -webkit-box-align: center
+}
+.condition_box .body li:after
+{
+   display:-webkit-box;
+}
+.condition_box .body li label
+{
+   width: 150px;
+   margin: 10px;
+}
+.btn_search_box
+{
+  display          : -webkit-box;
+  -webkit-box-pack : end;
+  padding          : 10px;
+}
+.btn_search
+{
+   background-color:#398DAD;
+   color           :#fff;
+   width           :100px;
+   height          :20px;
+   padding         :10px;
+   text-align      :center;
+   letter-spacing  :10px;
+}
+
+/*検索結果*/
+.serach_result_box
+{
+  margin : 20px;
+}
+.serach_result
+{
+  border-collapse: collapse;
+  border         : solid 1px #ccc;
+  width          : 100%;
+}
+.serach_result th
+{
+  background : #223e5e;
+  color      : #fff;
+}
+.serach_result td,
+.serach_result th
+{
+  border-right  : solid 1px #ccc;
+  border-bottom : solid 1px #ccc;
+  padding       : 10px;
+}
+
+/*詳細画面*/
+.detail
+{
+  margin : 20px;
+  border : solid 1px #ccc;
+}
+.detail > div
+{
+  display          : -webkit-box;
+  -webkit-box-align: center;
+  border-bottom    : solid 1px #ccc;
+  border-right     : solid 1px #ccc;
+  height           : 50px;
+}
+.detail > div:nth-last-child(1)
+{
+  border-bottom: none;
+}
+
+.detail > div > div:nth-child(1)
+{
+  width            : 200px;
+  height           : 50px;
+  background       : #223e5e;
+  color            : #fff;
+  display          : -webkit-box;
+  -webkit-box-align: center;
+  text-align       : center;
+}
+.detail > div > div:nth-child(1) > p
+{
+  width: 100%;
+}
+.detail > div > div:nth-child(2)
+{
+  padding-left: 10px;
+}
+
+.detail > div > div
+{
+  /*padding: 20px;*/
+}
+.btn_box
+{
+  margin            : 20px;
+  background        : none;
+  color             : none;
+  display           : -webkit-box;
+  -webkit-box-pack  : justify;
+}
+.btn_save
+{
+   background-color:#398DAD;
+   color           :#fff;
+   width           :100px;
+   height          :20px;
+   padding         :10px;
+   text-align      :center;
+   letter-spacing  :10px;
+}
+
+.btn_del
+{
+   background-color:#a40000;
+   color           :#fff;
+   width           :100px;
+   height          :20px;
+   padding         :10px;
+   text-align      :center;
+   letter-spacing  :10px;
+}
